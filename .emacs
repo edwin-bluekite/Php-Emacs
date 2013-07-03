@@ -147,3 +147,7 @@
 (setq ido-create-new-buffer 'always)
 ; Allow for better matching
 (setq ido-enable-flex-matching t)
+
+;Helm mode configurations
+(helm-mode 1))
+(global-set-key (kbd "C-c C-b") 'helm-mini)""))
